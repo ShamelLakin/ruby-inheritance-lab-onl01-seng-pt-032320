@@ -5,7 +5,7 @@ class Teacher < User
 
   def teach
     binding.pry
-     KNOWLEDGE.first.to_s #return random elemnet from array 
+     KNOWLEDGE.first #return random elemnet from array 
   end 
   
 end
